@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+  <separator label="ArcoLinux"/>
+    <item label="Terminal" icon="/home/stugotszach/.config/obmenu-generator/icons/2a2c81c80bc65be38edd3d4ac350ea44.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="File Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Web Browser" icon="/home/stugotszach/.config/obmenu-generator/icons/a61fe730542425b16903aee5985f9857.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser ]]></command></action></item>
+  <separator/>
+  <menu id="0.756515941889123" icon="/home/stugotszach/.config/obmenu-generator/icons/03cb4413b246018db63cea1cf422d78c.png" label="Accessories">
+    <item label="Application Finder" icon="/home/stugotszach/.config/obmenu-generator/icons/15fd8f165c9fc4660bdc6fb08eb7265a.png"><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
+    <item label="Archive Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/c4ebab28853db9d562690d34cfc1b977.png"><action name="Execute"><command><![CDATA[file-roller]]></command></action></item>
+    <item label="ArcoLinux Betterlockscreen" icon="/home/stugotszach/.config/obmenu-generator/icons/9a5fd1506d67ffb0e30804bea59a2c2d.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-betterlockscreen]]></command></action></item>
+    <item label="Arcolinux Tweak Tool" icon="/home/stugotszach/.config/obmenu-generator/icons/9d45d47204552319562b8bbb6b0c9983.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-tweak-tool]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Clipboard Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/a88b6ee6e5be3d4c7c462c58bc1d6f76.png"><action name="Execute"><command><![CDATA[xfce4-clipman]]></command></action></item>
+    <item label="Conky Toggle" icon="/home/stugotszach/.config/obmenu-generator/icons/1af8580bd49efce8cb62fef267c1a708.png"><action name="Execute"><command><![CDATA[conky-toggle]]></command></action></item>
+    <item label="Conkyzen" icon="/home/stugotszach/.config/obmenu-generator/icons/1af8580bd49efce8cb62fef267c1a708.png"><action name="Execute"><command><![CDATA[am-conkyzen]]></command></action></item>
+    <item label="File Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Fonts" icon="/home/stugotszach/.config/obmenu-generator/icons/e7c82a419544014fb6858bbdd00e6fb3.png"><action name="Execute"><command><![CDATA[gnome-font-viewer]]></command></action></item>
+    <item label="Galculator" icon="/home/stugotszach/.config/obmenu-generator/icons/aa7c8faeefcb5870da62d845142d9dfa.png"><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/e3d76e260a515da54fa6377d7fbfcadf.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="Nemo" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[nemo]]></command></action></item>
+    <item label="PlayOnLinux" icon="/home/stugotszach/.config/obmenu-generator/icons/ced6d55fde90ae77151b6d2de1488ece.png"><action name="Execute"><command><![CDATA[playonlinux]]></command></action></item>
+    <item label="Run Program..." icon="/home/stugotszach/.config/obmenu-generator/icons/15fd8f165c9fc4660bdc6fb08eb7265a.png"><action name="Execute"><command><![CDATA[xfce4-appfinder --collapsed]]></command></action></item>
+    <item label="Screenshot" icon="/home/stugotszach/.config/obmenu-generator/icons/ad76cb10bc42a125170734f3aa0efd6e.png"><action name="Execute"><command><![CDATA[gnome-screenshot --interactive]]></command></action></item>
+    <item label="Screenshot" icon="/home/stugotszach/.config/obmenu-generator/icons/d38e1d7465e791313454b9ae9e902c72.png"><action name="Execute"><command><![CDATA[xfce4-screenshooter]]></command></action></item>
+    <item label="Software Token (small)" icon="/home/stugotszach/.config/obmenu-generator/icons/8923e9f33bc3e02ba029a1b345cd7924.png"><action name="Execute"><command><![CDATA[stoken-gui --small]]></command></action></item>
+    <item label="Software Token" icon="/home/stugotszach/.config/obmenu-generator/icons/8923e9f33bc3e02ba029a1b345cd7924.png"><action name="Execute"><command><![CDATA[stoken-gui]]></command></action></item>
+    <item label="Task Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/b2d0388f88a2030bc026feb07cdd771a.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/stugotszach/.config/obmenu-generator/icons/b8375057d30816221c7cd7046a19f3e7.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/stugotszach/.config/obmenu-generator/icons/bd3ed4b0fd6ed9f6ed934e8cf2087e1f.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="USB Stick Formatter" icon="/home/stugotszach/.config/obmenu-generator/icons/bd3ed4b0fd6ed9f6ed934e8cf2087e1f.png"><action name="Execute"><command><![CDATA[mintstick -m format]]></command></action></item>
+    <item label="Variety" icon="/home/stugotszach/.config/obmenu-generator/icons/5ee2e497c1c09ac8b733608d85872869.png"><action name="Execute"><command><![CDATA[variety]]></command></action></item>
+    <item label="Vim" icon="/home/stugotszach/.config/obmenu-generator/icons/0157fcc50f54d410c4155cf8963df525.png"><action name="Execute"><command><![CDATA[termite -e 'vim']]></command></action></item>
+  </menu>
+  <menu id="0.413002278280572" icon="/home/stugotszach/.config/obmenu-generator/icons/ca75529cf89434bfafd64677e877a370.png" label="Development">
+    <item label="CMake" icon="/home/stugotszach/.config/obmenu-generator/icons/94d6693d9c50fea44a310d246bd1848c.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Geany" icon="/home/stugotszach/.config/obmenu-generator/icons/674c63f4d7322ce2189c633b522bc11c.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="Sublime Text 3 Dev" icon="/home/stugotszach/.config/obmenu-generator/icons/7466bea2abfabbdb8b13d374274630a4.png"><action name="Execute"><command><![CDATA[subl3]]></command></action></item>
+  </menu>
+  <menu id="0.346730410625366" icon="/home/stugotszach/.config/obmenu-generator/icons/34f4e06bce48e7090d06f63b5830b73e.png" label="Games">
+    <item label="Minecraft Launcher" icon="/home/stugotszach/.config/obmenu-generator/icons/aeaa945143f0cc0b86770fffeee1f1c9.png"><action name="Execute"><command><![CDATA[minecraft-launcher]]></command></action></item>
+    <item label="Steam (Runtime)" icon="/home/stugotszach/.config/obmenu-generator/icons/e6128e70b25482982def2ee2ddc4d982.png"><action name="Execute"><command><![CDATA[/usr/bin/steam-runtime]]></command></action></item>
+  </menu>
+  <menu id="0.0205518210741005" icon="/home/stugotszach/.config/obmenu-generator/icons/7aca90be75d838fc30ca8525c59cfbe9.png" label="Graphics">
+    <item label="ColorPic" icon="/home/stugotszach/.config/obmenu-generator/icons/c66573d4ad2efd012ae2a076eff709e9.png"><action name="Execute"><command><![CDATA[/usr/share/playonlinux/playonlinux --run "ColorPic"]]></command></action></item>
+    <item label="GNU Image Manipulation Program" icon="/home/stugotszach/.config/obmenu-generator/icons/6367d3d8227019d5cea8ea74cbab11c1.png"><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+    <item label="Inkscape" icon="/home/stugotszach/.config/obmenu-generator/icons/a33969d7cfd00f44b731a85f4d8f5698.png"><action name="Execute"><command><![CDATA[inkscape]]></command></action></item>
+    <item label="Ristretto Image Viewer" icon="/home/stugotszach/.config/obmenu-generator/icons/0f126cc6c04fdf5cf59ba700c99e3525.png"><action name="Execute"><command><![CDATA[ristretto]]></command></action></item>
+  </menu>
+  <menu id="0.702819180337503" icon="/home/stugotszach/.config/obmenu-generator/icons/aa857137511f6696f66bff6c19ac7b85.png" label="Multimedia">
+    <item label="Kazam" icon="/home/stugotszach/.config/obmenu-generator/icons/7de0320bb01bdf08e6ce45604c46a8a4.png"><action name="Execute"><command><![CDATA[kazam]]></command></action></item>
+    <item label="Kodi" icon="/home/stugotszach/.config/obmenu-generator/icons/836650ffb868a1fbfbb7fed366ca5223.png"><action name="Execute"><command><![CDATA[kodi]]></command></action></item>
+    <item label="OBS Studio" icon="/home/stugotszach/.config/obmenu-generator/icons/21420cf36b531a4d6836d966c81a4019.png"><action name="Execute"><command><![CDATA[obs]]></command></action></item>
+    <item label="Spotify" icon="/home/stugotszach/.config/obmenu-generator/icons/0d5dbd1c551da9ee40b8c92ef72600cc.png"><action name="Execute"><command><![CDATA[spotify]]></command></action></item>
+  </menu>
+  <menu id="0.234834112910889" icon="/home/stugotszach/.config/obmenu-generator/icons/37f230ad63c5d20f52c4d9ff22df31fd.png" label="Network">
+    <item label="Brave" icon="/home/stugotszach/.config/obmenu-generator/icons/c364c54fc358912660c69e8fd8e58ba3.png"><action name="Execute"><command><![CDATA[brave]]></command></action></item>
+    <item label="Discord" icon="/home/stugotszach/.config/obmenu-generator/icons/44d0f44e422b3411be320aca42d91b19.png"><action name="Execute"><command><![CDATA[/usr/bin/discord]]></command></action></item>
+    <item label="Firefox" icon="/home/stugotszach/.config/obmenu-generator/icons/7c381097da4a7669c2fdee3b02f238c4.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Mail Reader" icon="/home/stugotszach/.config/obmenu-generator/icons/263dcc93b1747a9832e0b07617681a80.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="qBittorrent" icon="/home/stugotszach/.config/obmenu-generator/icons/d36e474119f592c2496a597be55a70dc.png"><action name="Execute"><command><![CDATA[qbittorrent]]></command></action></item>
+    <item label="Steam (Runtime)" icon="/home/stugotszach/.config/obmenu-generator/icons/e6128e70b25482982def2ee2ddc4d982.png"><action name="Execute"><command><![CDATA[/usr/bin/steam-runtime]]></command></action></item>
+    <item label="Telegram Desktop" icon="/home/stugotszach/.config/obmenu-generator/icons/6a5d1db6ca174c6c2f1bb510fe9d3fda.png"><action name="Execute"><command><![CDATA[/home/stugotszach/Downloads/Telegram/Telegram -workdir /home/stugotszach/.local/share/TelegramDesktop/ --]]></command></action></item>
+    <item label="Web Browser" icon="/home/stugotszach/.config/obmenu-generator/icons/a61fe730542425b16903aee5985f9857.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.481991487691939" icon="/home/stugotszach/.config/obmenu-generator/icons/818383bbafa8d6e96bb875559a4834f4.png" label="Other">
+    <item label="gmrun" icon="/home/stugotszach/.config/obmenu-generator/icons/f43eff48d20f655724604ad324c10fe9.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  </menu>
+  <menu id="0.96413283845785" icon="/home/stugotszach/.config/obmenu-generator/icons/5b2cc46b6dc3145222627f40798ba52c.png" label="Settings">
+    <item label="Adblock" icon="/home/stugotszach/.config/obmenu-generator/icons/4273bf5a3d04e42809a889645e4f995d.png"><action name="Execute"><command><![CDATA[termite -e "pkexec hblock" --hold]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/stugotszach/.config/obmenu-generator/icons/59d2a582fbcd1886f77e43b91313fb04.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Advanced Network Configuration" icon="/home/stugotszach/.config/obmenu-generator/icons/a61fe730542425b16903aee5985f9857.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Appearance" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="ArcoLinux Betterlockscreen" icon="/home/stugotszach/.config/obmenu-generator/icons/9a5fd1506d67ffb0e30804bea59a2c2d.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-betterlockscreen]]></command></action></item>
+    <item label="Arcolinux Tweak Tool" icon="/home/stugotszach/.config/obmenu-generator/icons/9d45d47204552319562b8bbb6b0c9983.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-tweak-tool]]></command></action></item>
+    <item label="Arcolinux Welcome" icon="/home/stugotszach/.config/obmenu-generator/icons/f3db00132f48c9a6d3c040f323784a30.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-welcome-app]]></command></action></item>
+    <item label="Bluetooth" icon="/home/stugotszach/.config/obmenu-generator/icons/0a64eba4326f76e5f0805ed5980cbe94.png"><action name="Execute"><command><![CDATA[blueberry]]></command></action></item>
+    <item label="Clipboard Manager Settings" icon="/home/stugotszach/.config/obmenu-generator/icons/a88b6ee6e5be3d4c7c462c58bc1d6f76.png"><action name="Execute"><command><![CDATA[xfce4-clipman-settings]]></command></action></item>
+    <item label="Color Profiles" icon="/home/stugotszach/.config/obmenu-generator/icons/e4ed12e37dccd4858a77c5924b8f8d98.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Conkyzen" icon="/home/stugotszach/.config/obmenu-generator/icons/1af8580bd49efce8cb62fef267c1a708.png"><action name="Execute"><command><![CDATA[am-conkyzen]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="dconf Editor" icon="/home/stugotszach/.config/obmenu-generator/icons/5b2cc46b6dc3145222627f40798ba52c.png"><action name="Execute"><command><![CDATA[dconf-editor]]></command></action></item>
+    <item label="Default Applications" icon="/home/stugotszach/.config/obmenu-generator/icons/cec735a3e17aacd6d019a79f2329f1b9.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Disks" icon="/home/stugotszach/.config/obmenu-generator/icons/73a4050131cf01448039af56346f5089.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command></action></item>
+    <item label="Display" icon="/home/stugotszach/.config/obmenu-generator/icons/8cef743563af877c0898fadd622e8d2c.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="File Manager Settings" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Fix Hardcoded Icons" icon="/home/stugotszach/.config/obmenu-generator/icons/7f698f4c1987069764e5118113ce057f.png"><action name="Execute"><command><![CDATA[bash -c 'zenity --info --title="Fixing all hardcoded path icons" --text="An empty window means that all icons were already fixed.
+$(pkexec hardcode-fixer)" --width=500 --height=300']]></command></action></item>
+    <item label="GParted" icon="/home/stugotszach/.config/obmenu-generator/icons/7059d870e926ef33e5d6c61a7a7b6a8c.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Grub Customizer" icon="/home/stugotszach/.config/obmenu-generator/icons/7f2f47e26bfbae354f79842589ebefbd.png"><action name="Execute"><command><![CDATA[grub-customizer]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/e3d76e260a515da54fa6377d7fbfcadf.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="Monitor Settings" icon="/home/stugotszach/.config/obmenu-generator/icons/8cef743563af877c0898fadd622e8d2c.png"><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/stugotszach/.config/obmenu-generator/icons/0b67c5574af3e08a6bdbe3b3c050d477.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Notifications" icon="/home/stugotszach/.config/obmenu-generator/icons/3fe40052280e4854f0ab2cf38615a15a.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Panel" icon="/home/stugotszach/.config/obmenu-generator/icons/c823992296c9f41df2e3e15cce2c64a7.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Power Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/5def3a35c6f4164a09a76dc46f342948.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Print Settings" icon="/home/stugotszach/.config/obmenu-generator/icons/6f6c585cbd77b7788a97b5a307dde99f.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Privilege granting" icon="/home/stugotszach/.config/obmenu-generator/icons/396ece3bda70a42cea24cf7e03f3a9f1.png"><action name="Execute"><command><![CDATA[gksu-properties]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/stugotszach/.config/obmenu-generator/icons/91168f9200720a6798a0cc4a70d24505.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt5 Settings" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+    <item label="Quick System Info" icon="/home/stugotszach/.config/obmenu-generator/icons/74e987447f5f7d16c0995aea19a87075.png"><action name="Execute"><command><![CDATA[termite -e "/usr/bin/inxi -F" --hold]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/stugotszach/.config/obmenu-generator/icons/b91d07de189d5f71d97903e59a5b7cf9.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="SDDM Configuration" icon="/home/stugotszach/.config/obmenu-generator/icons/4b777b3e3597321c4954c49503deec57.png"><action name="Execute"><command><![CDATA[sddm-config-editor]]></command></action></item>
+    <item label="Settings Editor" icon="/home/stugotszach/.config/obmenu-generator/icons/67cfaf98039b43e99d346891cb522b73.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/5b2cc46b6dc3145222627f40798ba52c.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="System Profiler and Benchmark" icon="/home/stugotszach/.config/obmenu-generator/icons/1702d98a16d645afb7b5b1b86a9c8c89.png"><action name="Execute"><command><![CDATA[hardinfo]]></command></action></item>
+    <item label="Themix/Oomox theme designer" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[oomox-gui]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/stugotszach/.config/obmenu-generator/icons/bd3ed4b0fd6ed9f6ed934e8cf2087e1f.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="Xfce Terminal Settings" icon="/home/stugotszach/.config/obmenu-generator/icons/b8375057d30816221c7cd7046a19f3e7.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+  </menu>
+  <menu id="0.939170902353371" icon="/home/stugotszach/.config/obmenu-generator/icons/6a01420bf36e6a2e748a276a9519a8d1.png" label="System">
+    <item label="Add/Remove Software" icon="/home/stugotszach/.config/obmenu-generator/icons/59d2a582fbcd1886f77e43b91313fb04.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="BleachBit" icon="/home/stugotszach/.config/obmenu-generator/icons/ec6caf40c431b7c6b262a27a2915ebcf.png"><action name="Execute"><command><![CDATA[bleachbit]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Conky Toggle" icon="/home/stugotszach/.config/obmenu-generator/icons/1af8580bd49efce8cb62fef267c1a708.png"><action name="Execute"><command><![CDATA[conky-toggle]]></command></action></item>
+    <item label="kitty" icon="/home/stugotszach/.config/obmenu-generator/icons/2a2c81c80bc65be38edd3d4ac350ea44.png"><action name="Execute"><command><![CDATA[kitty]]></command></action></item>
+    <item label="Manage Printing" icon="/home/stugotszach/.config/obmenu-generator/icons/6f6c585cbd77b7788a97b5a307dde99f.png"><action name="Execute"><command><![CDATA[/usr/bin/xdg-open http://localhost:631/]]></command></action></item>
+    <item label="Oracle VM VirtualBox" icon="/home/stugotszach/.config/obmenu-generator/icons/1dfdd4a85fc6a2b2263b1e1a8d10f0f6.png"><action name="Execute"><command><![CDATA[VirtualBox]]></command></action></item>
+    <item label="Print Settings" icon="/home/stugotszach/.config/obmenu-generator/icons/6f6c585cbd77b7788a97b5a307dde99f.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="SDDM Configuration" icon="/home/stugotszach/.config/obmenu-generator/icons/4b777b3e3597321c4954c49503deec57.png"><action name="Execute"><command><![CDATA[sddm-config-editor]]></command></action></item>
+    <item label="Task Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/b2d0388f88a2030bc026feb07cdd771a.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Termite" icon="/home/stugotszach/.config/obmenu-generator/icons/2a2c81c80bc65be38edd3d4ac350ea44.png"><action name="Execute"><command><![CDATA[termite]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/01beab8403ce315d485d372d5845a83a.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/stugotszach/.config/obmenu-generator/icons/ef26806d6def867bf83fb003f1e5f77d.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="USB Stick Formatter" icon="/home/stugotszach/.config/obmenu-generator/icons/ef26806d6def867bf83fb003f1e5f77d.png"><action name="Execute"><command><![CDATA[mintstick -m format]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/stugotszach/.config/obmenu-generator/icons/b8375057d30816221c7cd7046a19f3e7.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  <separator/>
+    <menu id="0.482449469448284" label="Conky" execute="am-conky-pipemenu" icon="/home/stugotszach/.config/obmenu-generator/icons/1af8580bd49efce8cb62fef267c1a708.png"/>
+  <menu id="0.946100687857136" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png" label="Preferences">
+    <item label="Nitrogen" icon="/home/stugotszach/.config/obmenu-generator/icons/e17224c9883632d4e0caad2fbebdcb24.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Lxappearance" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Printing" icon="/home/stugotszach/.config/obmenu-generator/icons/6f6c585cbd77b7788a97b5a307dde99f.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Xfce4 Settings Manager" icon="/home/stugotszach/.config/obmenu-generator/icons/5b2cc46b6dc3145222627f40798ba52c.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+  <separator/>
+    <menu id="0.125294882096092" label="Compositor" execute="am-compositor" icon="/home/stugotszach/.config/obmenu-generator/icons/0a2dcaeec35df0b9aef93dbcfa7d225f.png"/>
+  <menu id="0.344813631877503" icon="/home/stugotszach/.config/obmenu-generator/icons/12fcb86971356bbb838eabfb40e15642.png" label="Openbox">
+    <item label="Edit menu.xml" icon="/home/stugotszach/.config/obmenu-generator/icons/ca78625c9d38fa3dabdb1cd1d24532e1.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Edit rc.xml" icon="/home/stugotszach/.config/obmenu-generator/icons/ca78625c9d38fa3dabdb1cd1d24532e1.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Edit autostart" icon="/home/stugotszach/.config/obmenu-generator/icons/ca78625c9d38fa3dabdb1cd1d24532e1.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+  <separator/>
+    <item label="GUI Menu Editor" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[obmenu3]]></command></action></item>
+    <item label="GUI Config Tool" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="GUI Keybinds" icon="/home/stugotszach/.config/obmenu-generator/icons/c557f51e0cdaa16a387c7e5f6747bde0.png"><action name="Execute"><command><![CDATA[obkey]]></command></action></item>
+  <separator/>
+    <item label="Restart Openbox" icon="/home/stugotszach/.config/obmenu-generator/icons/12fcb86971356bbb838eabfb40e15642.png"><action name="Execute"><command><![CDATA[openbox --restart]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/stugotszach/.config/obmenu-generator/icons/12fcb86971356bbb838eabfb40e15642.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+    <menu id="0.0630582620740512" label="Tint2" execute="am-tint2-pipemenu" icon="/home/stugotszach/.config/obmenu-generator/icons/fef00c81070a845e7fd92ccb76eb16e0.png"/>
+    <item label="Tint2 GUI" icon="/home/stugotszach/.config/obmenu-generator/icons/fef00c81070a845e7fd92ccb76eb16e0.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+  <separator/>
+    <menu id="0.370205785453887" label="Display Keybinds" execute="am-kb-pipemenu" icon="/home/stugotszach/.config/obmenu-generator/icons/fd692cfd2197a97fd4b2a9adb21991d5.png"/>
+  <menu id="0.737280961446338" icon="/home/stugotszach/.config/obmenu-generator/icons/dfb8f596b5011ccec05b8196d1ea06d9.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/stugotszach/.config/obmenu-generator/icons/e22140f636610bc720878a3f255abc32.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/stugotszach/.config/obmenu-generator/icons/e22140f636610bc720878a3f255abc32.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a pipe menu" icon="/home/stugotszach/.config/obmenu-generator/icons/dfb8f596b5011ccec05b8196d1ea06d9.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a static menu" icon="/home/stugotszach/.config/obmenu-generator/icons/dfb8f596b5011ccec05b8196d1ea06d9.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a pipe menu with icons" icon="/home/stugotszach/.config/obmenu-generator/icons/dfb8f596b5011ccec05b8196d1ea06d9.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/stugotszach/.config/obmenu-generator/icons/dfb8f596b5011ccec05b8196d1ea06d9.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Refresh Icon Set" icon="/home/stugotszach/.config/obmenu-generator/icons/415dfa018a1192f5453429019f6ebd58.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock Screen" icon="/home/stugotszach/.config/obmenu-generator/icons/6545a2360b69d6dc310dd62d04ec61ff.png"><action name="Execute"><command><![CDATA[arcolinux-logout]]></command></action></item>
+    <item label="Exit Openbox" icon="/home/stugotszach/.config/obmenu-generator/icons/86464bbc9eb3ef7c12e8c0c32f8de038.png"><action name="Execute"><command><![CDATA[arcolinux-logout]]></command></action></item>
+  </menu>
+</openbox_menu>
