@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=ILikeRed
+Comment=Red and black with some white hinted in
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=ILikeRed
+IconTheme=Sardi Ghost Flexible
+CursorTheme=Paper
+CursorSize=22
